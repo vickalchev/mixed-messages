@@ -49,6 +49,7 @@ Are you curious to know your fortune for today? Use our application by clicking 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 This application was created as a submission for the Mixed Messages Portfolio project from Codecademy.
+The application will throw a random fortune message everytime the 'Discover' gets clicked on.
 
 ## Acknowledgements
 
