@@ -27,11 +27,10 @@ const randomMessage = arr => {
       
   }
 };
-randomMessage(messages);
+
 
 const showMessage = (fnc) => {
   return document.getElementById('quote').innerHTML = randomMessage(messages);
 }
 
-showMessage(randomMessage);
 buttonFunction();
