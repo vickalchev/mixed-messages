@@ -11,6 +11,13 @@ const messages = ["Lucky number: ", "Lots of improvements in both private and pr
   "Avoid rumors.", "Do not fall into greed and temptation.", "Relationships will be strengthened.", "You should get regular health checkups.", "Use your wisdom and intelligence to solve problems.", "Work with dignity."];
 
 
+const buttonFunction = () => {
+  
+  const button = document.getElementById('discoverBtn');
+  return button.addEventListener('click',showMessage);
+
+}
+
 // Main function: Returns final random fortune to user
 const randomMessage = arr => {
   const randomMessageIdx = Math.floor(Math.random() * arr.length);
@@ -19,9 +26,20 @@ const randomMessage = arr => {
     return arr[randomMessageIdx] + randomLuckyNumber;
   } else {
     return arr[randomMessageIdx];
+    
   }
 };
+randomMessage(messages);
 
+const showMessage = (fnc) => {
+  return document.getElementById('quote').innerHTML = randomMessage(messages);
+}
+
+showMessage(randomMessage);
+buttonFunction();
+
+//Call button function
 
 // Call main function
-randomMessage(messages);
+
+//arr[randomMessageIdx]
