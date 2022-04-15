@@ -33,7 +33,7 @@ const randomMessage = arr => {
 };
 
 const showMessage = (fnc) => {
-  return document.getElementById('quote').innerHTML = fnc();
+  return document.getElementById('quote').innerHTML = fnc(messages);
 }
 
 showMessage(randomMessage);
