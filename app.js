@@ -24,7 +24,7 @@ const randomMessage = arr => {
     return arr[randomMessageIdx] + randomLuckyNumber;
   } else {
     return arr[randomMessageIdx];
-    
+      
   }
 };
 randomMessage(messages);
