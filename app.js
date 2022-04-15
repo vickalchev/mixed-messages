@@ -1,6 +1,6 @@
-//The main app file
 
-// Array messages
+
+// Array of messages
 const messages = ["Lucky number: ", "Lots of improvements in both private and professional life.", "Trust your abilities to develop a positive attitude.", "Keep your focus and motivation to excel in whatever you do today.",
   "Be open to new opportunities!", "Avoid taking unnecessary risks today.", "The chances of travelling will increase.", "You may face difficulties in resuming unfinished or pending tasks.", "There are signs of great success.", 
   "A financial reward is on its way!", "Pay extra attention to your health.", "You must reduce stress at work.", "Focus on enhacing your savings!", "Keep emotions under control!", "Keep up the hard work!", "Luck will prevail.", 
@@ -10,7 +10,7 @@ const messages = ["Lucky number: ", "Lots of improvements in both private and pr
   "Desired results will be achieved.", "There will be a boom in career.", "Business will prosper.", "Be health-conscious.", "Be careful in judicial matters.", "Increase control over the budget.", "Be patient in personal matters.", 
   "Avoid rumors.", "Do not fall into greed and temptation.", "Relationships will be strengthened.", "You should get regular health checkups.", "Use your wisdom and intelligence to solve problems.", "Work with dignity."];
 
-
+//Linking the button in the DOM to trigger the showMessage function.
 const buttonFunction = () => {
   
   const button = document.getElementById('discoverBtn');
@@ -38,8 +38,4 @@ const showMessage = (fnc) => {
 showMessage(randomMessage);
 buttonFunction();
 
-//Call button function
 
-// Call main function
-
-//arr[randomMessageIdx]
