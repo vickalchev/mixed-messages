@@ -1,16 +1,20 @@
 body {
-    background-image: url(./images/img-bkg-tarot-cards.jpg);
+    background-image: url(https://cdn.discordapp.com/attachments/964213174293381130/964597531931721788/img-bkg-tarot-cards.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
+    background-position: center;
+}
+
+#container {
+    display: grid;
+    grid-template-rows: 1fr auto;
     justify-content: center;
-    align-items:center;
-    font-family: 'Inter', sans-serif;
+    align-items: center;
+    height: 100vh;
 }
 
 .card {
-    width: 40%;
+    width: 100%;
     height: auto;
     background-color: white;
     box-shadow: #4C4CAC 10px 10px; 
@@ -58,10 +62,5 @@ h2 {
     color:#4C4CAC;
     font-size: 2.5rem;
     font-weight: 600;
-
-}
-
-footer {
-    
 
 }
